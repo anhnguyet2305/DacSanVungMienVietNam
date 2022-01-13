@@ -1,0 +1,107 @@
+$MyColor: #00943C;
+$MyColor2: #f7c35f;
+.container{
+    display: flex;
+    padding: 2%;    
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../img/bigBanner.jpg);
+    background-position: center;
+    background-size: cover;
+    .name-firm{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.5rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    .top-container{
+        border-bottom: 2px solid #00943C;
+        padding-bottom: 5%;
+        .flex-ct{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .flex-ct i{
+            margin-right: 10px;
+            width: 20px;
+            height: 20px;
+            color: $MyColor;
+        }
+        .flex-ct a{
+            text-decoration: none;
+            color: white;
+        }   
+    }
+    .contact-title{
+        padding-top: 5%;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+    .first-container{
+        padding-bottom: 2%;
+        width: 45%;
+    }
+    .right-container{
+        width: 50%;
+    }
+    .right-container{
+        iframe{
+            width: 100%;
+        }
+        text-area{
+            width: 100%;
+        }
+    }
+    .form-contact{
+        input{
+            margin: 5% 0%;
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid #fff;
+            &:focus{
+                outline: none;
+            }
+            &:last-child{
+                width: 100%;
+                padding: 5px 0px;
+                border-radius: .5rem;
+                border: none;
+                background-color: #00943C;
+                color: #fff;
+                font-weight: bold;
+            }
+            &:not(:last-child)::placeholder{
+                color: white;
+            }
+            &:not(:last-child){
+                color: white;
+            }
+        }
+    }
+    .form-control{
+        &:focus{
+            box-shadow: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: 772px){
+    .container{
+        display: block;
+    }
+    .first-container, .right-container{
+        width: 100% !important;
+    }
+    
+}

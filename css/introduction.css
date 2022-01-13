@@ -1,0 +1,28 @@
+.container {
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  padding: 5% 5%;
+}
+
+.container .introduction {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.text-title {
+  padding: 1% 5%;
+  background: rgba(71, 185, 22, 0.1);
+  color: #00943C;
+  font-weight: bold;
+}
+
+.text-title .first-title-inside {
+  color: black;
+  font-weight: normal;
+}
+
+.wrapper-container {
+  background: #f8f8f8;
+}
+/*# sourceMappingURL=introduction.css.map */

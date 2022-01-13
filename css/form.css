@@ -1,0 +1,78 @@
+.container-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 50px;
+}
+
+.container-form .form-sign-in {
+  width: 50%;
+  padding: 2% 0%;
+}
+
+.container-form .form-text {
+  font-weight: bold;
+  color: black;
+  position: relative;
+}
+
+.container-form .form-text span {
+  position: absolute;
+  font-weight: bold;
+  top: 0;
+  color: red;
+  font-size: 1.1rem;
+  margin-left: 5px;
+}
+
+.container-form p {
+  margin: 0;
+}
+
+.container-form a {
+  text-decoration: none;
+  color: #00943C;
+  font-weight: bold;
+}
+
+.container-form input:last-child {
+  border-radius: .5rem;
+  background: #f7c35f;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container {
+  padding: 2%;
+}
+
+.container .first-container {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container .first-container1 a {
+  color: black;
+}
+
+.container .forget {
+  font-size: .85rem;
+}
+
+@media screen and (max-width: 772px) {
+  .form-sign-in {
+    width: 80% !important;
+  }
+}
+/*# sourceMappingURL=form.css.map */

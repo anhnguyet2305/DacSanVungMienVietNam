@@ -1,0 +1,26 @@
+$myColor : rgba(71, 185, 22, 0.1);
+$colorBackground: #00943C;
+.container{
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 5% 5%;
+    .introduction{
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+}
+.text-title{
+    padding: 1% 5%;
+    background: $myColor;
+    color: $colorBackground;
+    font-weight: bold;
+
+    .first-title-inside{
+        color: black;
+        font-weight: normal;
+    }
+}
+.wrapper-container{
+    background: #f8f8f8;
+}

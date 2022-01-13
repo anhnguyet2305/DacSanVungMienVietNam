@@ -1,0 +1,64 @@
+$MyColor: #00943C;
+$MyColor2: #f7c35f;
+.container-form{
+    .form-sign-in{
+        width: 50%;
+        padding: 2% 0%;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    .form-text{
+        font-weight: bold;
+        color: black;
+        position: relative;
+        span{
+            position: absolute;
+            font-weight: bold;
+            top: 0;
+            color: red;
+            font-size: 1.1rem;
+            margin-left: 5px;
+        }
+    }
+    p{
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        color: $MyColor;
+        font-weight: bold;
+    }
+    input{
+        &:last-child{
+            border-radius: .5rem;
+            background: $MyColor2;
+            transition: all .2s;
+            font-weight: bold;
+            color: white;
+            text-transform: uppercase;
+        }
+    }
+}
+.container{
+    padding: 2%;
+    .first-container{
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+    }
+    .first-container1 a{
+        color: black;
+    }
+    .forget{
+        font-size: .85rem;
+    }
+    
+}
+@media screen and (max-width: 772px){
+    .form-sign-in{
+        width: 80% !important;
+    }
+}
