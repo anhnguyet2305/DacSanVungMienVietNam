@@ -1,52 +1,52 @@
 const header = () =>{
     return (`
     <nav class="nav-bar">
-    <div class="hamburger">
-        <div class="line1"></div>
-        <div class="line"></div>
-        <div class="line3"></div>
-    </div>
-    <div class="logo">
-        <a href="../html/index.html"><img src="../img/logo.png" alt="logo"></a>
-    </div>
-    <div class="search-bar">
-        <input class="form-control form-ground" type="text" placeholder="Tìm kiếm sản phẩm">
-        <i class="fa fa-search" aria-hidden="true"></i>
-    </div>
-    <div class="right-bar">
-        <div class="support">
-            <div class="left-support">
-                <i class="fa fa-phone" aria-hidden="true"></i>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line"></div>
+            <div class="line3"></div>
+        </div>
+        <div class="logo">
+            <a href="../html/index.html"><img src="../img/logo.png" alt="logo"></a>
+        </div>
+        <div class="search-bar">
+            <input class="form-control form-ground" type="text" placeholder="Tìm kiếm sản phẩm">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+        <div class="right-bar">
+            <div class="support">
+                <div class="left-support">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                </div>
+                <div class="right-support shadow p-3 mb-5 bg-body rounded">
+                    <p>Hỗ trợ khách hàng</p>
+                    <p><a href="tel:">0916 218 666</a></p>
+                    <p><a href="tel:">037 882 8686</a></p>
+                </div>
             </div>
-            <div class="right-support shadow p-3 mb-5 bg-body rounded">
-                <p>Hỗ trợ khách hàng</p>
-                <p><a href="tel:">0916 218 666</a></p>
-                <p><a href="tel:">037 882 8686</a></p>
+            <div class="sign-in">
+                <div class="left-sign-in">
+                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                </div>
+                <div class="right-sign-in shadow p-3 mb-5 bg-body rounded">
+                    <p><a href="">Đăng nhập</a></p>
+                    <p><a href="#">Đăng ký</a></p>
+                </div>
+            </div>
+            <div class="cart">
+                <div class="left-cart">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+                <div class="right-cart">
+                    <p><a href="">Giỏ hàng</a></p>
+                    <p class="quantity">0</p>
+                </div>
+                <div class = "infor-customer-cart">
+                    
+                </div>
             </div>
         </div>
-        <div class="sign-in">
-            <div class="left-sign-in">
-                <i class="fa fa-sign-in" aria-hidden="true"></i>
-            </div>
-            <div class="right-sign-in shadow p-3 mb-5 bg-body rounded">
-                <p><a href="">Đăng nhập</a></p>
-                <p><a href="#">Đăng ký</a></p>
-            </div>
-        </div>
-        <div class="cart">
-            <div class="left-cart">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-            </div>
-            <div class="right-cart">
-                <p><a href="">Giỏ hàng</a></p>
-                <p class="quantity">0</p>
-            </div>
-            <div class = "infor-customer-cart">
-                
-            </div>
-        </div>
-    </div>
-</nav>
+    </nav>
 <div class="mobile-search-bar">
     <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm...">
     <i class="fa fa-search" aria-hidden="true"></i>

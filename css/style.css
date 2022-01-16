@@ -9,7 +9,7 @@ body{
 }
 
 nav{
-    height: 20vh;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,8 +19,8 @@ nav{
     position: relative;
 }
 .logo{
-    width: 100px;
-    height: 100%;
+    height: 90px;
+    width: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -361,7 +361,7 @@ img{
     animation-duration: .3s;
     animation-timing-function: linear;
     background-color: #fff;
-    animation-fill-mode: both;
+    /*animation-fill-mode: both;*/
     z-index: 12;
     animation-direction: alternate;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
