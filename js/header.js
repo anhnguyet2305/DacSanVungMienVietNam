@@ -1,5 +1,6 @@
 const header = () =>{
     return (`
+
     <nav class="nav-bar">
         <div class="hamburger">
             <div class="line1"></div>
@@ -26,11 +27,10 @@ const header = () =>{
             </div>
             <div class="sign-in">
                 <div class="left-sign-in">
-                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                    <i class="fas fa-user" aria-hidden="true"></i>
                 </div>
                 <div class="right-sign-in shadow p-3 mb-5 bg-body rounded">
                     <p><a href="login.html">Đăng nhập</a></p>
-                    <p><a href="#">Đăng ký</a></p>
                 </div>
             </div>
             <div class="cart">
