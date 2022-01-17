@@ -91,6 +91,7 @@ $MyColor2: #f7c35f;
     .form-control{
         &:focus{
             box-shadow: none;
+            border: red 1px solid;
         }
     }
 }

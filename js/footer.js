@@ -1,12 +1,12 @@
 const footer = () =>{
     return (`
-    <div class="subcribe">
+<!--    <div class="subcribe">-->
 <!--    <p>Đăng ký nhận tin</p>-->
 <!--    <form action="" method="GET">-->
 <!--        <input class="form-control width-control" type="email" placeholder="Nhập địa chỉ Email" require maxlength="50">-->
 <!--        <input type="submit" class="form-control submit" value="Đăng ký"><br>-->
 <!--    </form>-->
-</div>
+<!--</div>-->
 <footer>
     <ul class="ul-1">
         <li>Về chúng tôi</li>

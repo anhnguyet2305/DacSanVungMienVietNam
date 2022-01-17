@@ -7,7 +7,9 @@ body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-
+img{
+    width: 100%;
+}
 nav{
     height: 100px;
     display: flex;
@@ -19,14 +21,7 @@ nav{
     position: relative;
 }
 .logo{
-    height: 90px;
-    width: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-img{
-    width: 100%;
+    height: 80px;
 }
 .search-bar{
     width: 35%;
@@ -98,7 +93,7 @@ img{
 }
 .support:hover .right-support, .sign-in:hover .right-sign-in{
     visibility: visible;
-    opacity: 1;    
+    opacity: 1;
 }
 .arrow-top i{
     color: #fff;
@@ -239,7 +234,7 @@ img{
     margin: 3% 0% !important;
 }
 .desktop-navbar{
-    height: 10vh;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1157,7 +1152,7 @@ footer .fa-angle-down{
         font-weight: bold;
         text-transform: uppercase;
     }
-    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction, 
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction,
     .swiper-pagination4{
         display: flex;
         justify-content: center;
@@ -1302,4 +1297,25 @@ footer .fa-angle-down{
     .subcribe p{
         font-size: 1.5rem;
     }
+}
+
+.form-container .custom-btn{
+    background-color: #00943C;
+    border: 2px solid #00943C;
+    font-weight: 600;
+    color: white;
+
+}
+.form-container .custom-btn:hover{
+    background-color: #008033;
+}
+.form-container .btn{
+    width: 100%;
+}
+.form-control:focus{
+    border-color: #00943C!important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,255,0,0.3),0 0 8px rgba(0,255,0,0.3) !important;
+    box-shadow: inset 0 1px 1px rgba(0,255,0,0.3),0 0 8px rgba(0,255,0,0.3) !important;
+    transition: linear 0.3s;
 }
