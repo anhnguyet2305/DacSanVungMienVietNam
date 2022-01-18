@@ -258,7 +258,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 20px;
 }
 .list-product-1, .list-1{
     list-style: none;
@@ -315,10 +314,10 @@ nav{
 .desktop-navbar a{
     transition: all .3s;
 }
-.desktop-navbar li:hover{
+.desktop-navbar a:hover{
     background: #fff;
 }
-.desktop-navbar li:hover a{
+.desktop-navbar a:hover li{
     color: #00943C;
 }
 .arrow-top{

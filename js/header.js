@@ -52,13 +52,13 @@ const header = () =>{
     <i class="fa fa-search" aria-hidden="true"></i>
 </div>
 <ul class="desktop-navbar">
-    <li><a href="../html/index.html">Trang chủ</a></li>
-    <li class="product-li">
-        <a href="../html/products.html">Sản phẩm</a>
-    </li>
-    <li><a href="">Tin tức</a></li>
-    <li><a href="../html/introduction.html">Giới thiệu</a></li>
-    <li><a href="">Liên hệ</a></li>
+    <a href="../html/index.html"><li>Trang chủ</li></a>
+   <a href="../html/products.html"><li class="product-li">Sản phẩm</li></a>
+
+    <a href=""><li>Tin tức</li></a>
+    <a href="../html/introduction.html"><li>Giới thiệu</li></a>
+    <a href=""><li>Liên hệ</li></a>
+    
 </ul>
 <div class="mobile-navbar">
             <div class="top-bar">
