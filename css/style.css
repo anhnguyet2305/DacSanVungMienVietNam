@@ -373,7 +373,7 @@ nav{
     width: 100%;
 }
 .box-items{
-    padding: 0 5% 5% 5%;
+    padding: 0 5%;
 }
 .title-box a{
     text-decoration: none;
@@ -425,19 +425,25 @@ nav{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.8rem;
     margin: 0;
-    padding-right: 2%;
+    padding: 0 2% 2% 0;
+}
+.flex-title{
+    padding-bottom: 2%;
+}
+.banner-discover{
+    margin: 2% 0;
 }
 .box-title-cd{
     display: flex;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
-    padding-bottom: 2%;
 }
 .count-down-box{
     display: flex;
     justify-content: flex-start;
     height: 100%;
+    padding-bottom: 2%;
 }
 .box-hour, .box-minutes, .box-seconds{
     height: 25px;
