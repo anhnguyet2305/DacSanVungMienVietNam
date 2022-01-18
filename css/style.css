@@ -373,7 +373,7 @@ nav{
     width: 100%;
 }
 .box-items{
-    padding: 5% 5%;
+    padding: 0 5% 5% 5%;
 }
 .title-box a{
     text-decoration: none;
@@ -424,7 +424,6 @@ nav{
     font-weight: bold;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 1.8rem;
-    padding: 5% 0%;
     margin: 0;
     padding-right: 2%;
 }
@@ -433,6 +432,7 @@ nav{
     width: 100%;
     justify-content: flex-start;
     align-items: center;
+    padding-bottom: 2%;
 }
 .count-down-box{
     display: flex;
@@ -518,7 +518,7 @@ nav{
     margin: 0% 5%;
     overflow: hidden;
 }
-.swiper-pagination3, .swiper-pagination2, .swiper-pagination5 , .swiper-pagination6,.swiper-pagination7{
+.swiper-pagination3,.swiper-pagination1,.swiper-pagination4, .swiper-pagination2, .swiper-pagination5 , .swiper-pagination6,.swiper-pagination7{
     display: flex !important;
     padding: 3%;
     justify-content: center;
@@ -637,6 +637,9 @@ nav{
 }
 .ul-1 img{
     width: 100px;
+}
+.ul-1 i {
+    width: 6px;
 }
 footer{
     display: flex;
@@ -1152,7 +1155,7 @@ footer .fa-angle-down{
         display: block;
     }
     .swiper-button-prev:after, .swiper-button-next:after{
-        display: none;
+        display: block;
     }
     .list-product li a{
         font-weight: normal;
@@ -1320,6 +1323,9 @@ footer .fa-angle-down{
 }
 .form-container .btn{
     width: 100%;
+}
+.form-control{
+    height: 40px;
 }
 .form-control:focus{
     border-color: #00943C!important;

@@ -9,13 +9,13 @@ const footer = () =>{
 <!--</div>-->
 <footer>
     <ul class="ul-1">
-        <li>Về chúng tôi</li>
+        <h5> Đặc Sản Vùng Miền Việt Nam</h5>
         <div class="logo-footer">
-            <img src="../img/logo.png" alt="">
+            <img style="border-radius: 10px" src="../img/logo_gif_header.gif" alt="">
         </div>
-        <li><i class="fa fa-map-marker" aria-hidden="true"></i> Địa chỉ:</li>
-        <li><i class="fa fa-mobile" aria-hidden="true"></i> <a href="tel:">Số điện thoại:</a></li>
-        <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:">Email:</a></li>
+        <li><i class="fal fa-map-marker-alt" aria-hidden="true"></i></i> Địa chỉ: 52 Văn Trì, P.Minh Khai, Nam Từ Liêm, Hà Nội</li>
+        <li><i class="far fa-mobile" aria-hidden="true"></i> <a href="tel:">Số điện thoại: 091 621 86 66</a></li>
+        <li><i class="fal fa-envelope" aria-hidden="true"></i> <a href="mailto:dieplong.jsc@gmail.com">Email: dieplong.jsc@gmail.com</a></li>
     </ul>
     <ul class="ul-2">
         <li>Tìm hiểu thêm <i class="fa fa-angle-down" aria-hidden="true"></i></li>
