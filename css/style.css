@@ -276,6 +276,21 @@ nav{
     text-transform: uppercase;
     padding: 20px 20px;
 }
+.swiper-button-next, .swiper-button-prev{
+    left: auto;
+    top: 22px;
+    height: 100% !important;
+    width: 50px !important;
+}
+.swiper-button-next:hover, .swiper-button-prev:hover{
+    background-color:rgba(192,192,192,0.3);
+    font-weight: 700;
+    transition: animated 0.3s;
+}
+.swiper-button-next{
+    right: 0;
+
+}
 .swiper-button-prev:after, .swiper-button-next:after{
     font-size: 2rem;
     color: #00943C;
@@ -936,6 +951,22 @@ footer .fa-angle-down{
     border: 1px solid grey;
     padding: 12px;
     border-radius: 20px;
+}
+.max-h-slide{
+    max-height: 60vh;
+    margin-bottom: 6px;
+    border-radius: 10px;
+}
+.max-h-slide-bot{
+    max-height: 10vh;
+}
+.max-h-slide-bot img{
+    border-radius: 10px;
+    object-fit: cover;
+    max-height: 10vh;
+}
+.max-h-slide-bot img:hover{
+    cursor: pointer;
 }
 @keyframes animated {
     from{height: 0; opacity: 0;}
