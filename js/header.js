@@ -7,8 +7,8 @@ const header = () =>{
             <div class="line"></div>
             <div class="line3"></div>
         </div>
-        <div >
-            <a  href="../html/index.html"><img class="logo"  src="../img/logo.png" alt="logo"></a>
+        <div>
+            <a href="../html/index.html"><img class="logo"  src="../img/logo.png" alt="logo"></a>
         </div>
         <div class="search-bar">
             <input class="form-control form-ground" type="text" placeholder="Tìm kiếm sản phẩm">
@@ -30,7 +30,8 @@ const header = () =>{
                     <i class="fas fa-user" aria-hidden="true"></i>
                 </div>
                 <div class="right-sign-in shadow p-3 mb-5 bg-body rounded">
-                    <p><a href="login.html">Đăng nhập</a></p>
+                    <p><a href="../html/login.html">Đăng nhập</a></p>
+                    <p><a href="../html/register.html">Đăng ký</a></p>
                 </div>
             </div>
             <div class="cart">
@@ -57,7 +58,7 @@ const header = () =>{
 
     <a href=""><li>Tin tức</li></a>
     <a href="../html/introduction.html"><li>Giới thiệu</li></a>
-    <a href=""><li>Liên hệ</li></a>
+    <a href="../html/contact.html"><li>Liên hệ</li></a>
     
 </ul>
 <div class="mobile-navbar">

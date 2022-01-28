@@ -371,6 +371,19 @@ nav{
 .swiper-slide img{
     width: 100%;
 }
+.carousel-control-next:hover, .carousel-control-prev:hover{
+    background-color:rgba(192,192,192,0.3);
+    color: #cc1f23;
+}
+.carousel-control-next-icon{
+    background-image: url("../icon/next.png") !important;
+}
+.carousel-control-prev-icon{
+    background-image: url("../icon/previous.png") !important;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #00943C;
+}
 .box-items{
     padding: 0 5%;
 }
@@ -892,6 +905,38 @@ footer .fa-angle-down{
     opacity: 0;
     height: 0;
 }
+.carousel-inner{
+    max-height: 70vh;
+    min-height: 70vh;
+    overflow: hidden;
+}
+.carousel-inner img{
+    max-height: 70vh;
+    min-height: 70vh;
+    object-fit: cover;
+}
+#title-product{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+#origin, #status{
+    color: #00943C;
+    font-weight: 600;
+}
+#price-new{
+    color: #cc1f23;
+    font-size: 30px;
+    font-weight: 500;
+}
+#price-old{
+    text-decoration: line-through;
+    color: grey;
+}
+.description{
+    border: 1px solid grey;
+    padding: 12px;
+    border-radius: 20px;
+}
 @keyframes animated {
     from{height: 0; opacity: 0;}
     to{height: 20vh; opacity: 1;}
@@ -930,6 +975,9 @@ footer .fa-angle-down{
     .background-black-search i{
         width: 30px;
         height: 30px;
+    }
+    #title-product{
+        font-size: 1.2rem;
     }
 }
 @media screen and (max-width: 900px){
@@ -1316,15 +1364,16 @@ footer .fa-angle-down{
     }
 }
 
-.form-container .custom-btn{
+.custom-btn{
     background-color: #00943C;
     border: 2px solid #00943C;
     font-weight: 600;
     color: white;
 
 }
-.form-container .custom-btn:hover{
+.custom-btn:hover{
     background-color: #008033;
+    color: white;
 }
 .form-container .btn{
     width: 100%;
